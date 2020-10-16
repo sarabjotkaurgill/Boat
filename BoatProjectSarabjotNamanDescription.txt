@@ -1,0 +1,28 @@
+Sarabjot Kaur:
+
+Description:
+
+Worked on a graphical Swing application that simulates the functionality of a boat. The boat has a position and a velocity.
+It also has a fuel tank, which has a maximum capacity, and the fuel level can be between 0 and the maximum capacity.
+
+The boat also have various possible states. 
+These could be something like:  Off, Running, Refilling fuel, Capsized  
+
+Using the graphical user interface, the user able to start the boat, stop the boat, increase its speed, decrease its 
+speed, change its direction, and to refill the fuel. 
+
+The user interface also display the position and velocity*, as well as the fuel level and fuel capacity. It also give 
+relevant messages to the user as needed. 
+
+Rules:
+
+The various actions valid or invalid at various times, depending on the boat’s state/data.
+
+Driving the boat too fast can be dangerous. While driving the boat above a certain speed, there would be a chance 
+(per second) that the boat will capsize and sink. This probability increase as the speed increases above the limit. 
+If the boat capsizes, it becomes inoperable (cannot perform actions).
+
+If the boat runs out of fuel out on the water, the boat automatically stop and become inoperable.
+
+When the speed is dangerously high, or when the fuel is dangerously low, a warning displayed to the user. 
+ 
